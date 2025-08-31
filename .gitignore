@@ -42,7 +42,6 @@ spark-warehouse/
 metastore_db/
 
 # Project specific
-output/
 input/sample_data/
 
 # Temporary files
