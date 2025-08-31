@@ -1,0 +1,63 @@
+# Scala & SBT
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.scala_dependencies
+.bsp/
+.metals/
+.bloop/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# IDE - VS Code
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Build & Dependencies
+*.class
+*.jar
+dist/
+build/
+out/
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Project specific
+output/
+input/sample_data/
+
+# Temporary files
+*.swp
+*~
+.history
+.cache/
+.temp/
+
+# Coverage reports
+coverage/
+.coverage
+coverage.xml
+*.coveragexml
+
+# Application specific
+application.conf.local
+*.env
